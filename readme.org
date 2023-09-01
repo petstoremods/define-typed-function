@@ -1,0 +1,15 @@
+* types.el
+This library lets you define typed functions in elisp without having to use CLOS or manually check the types yourself.
+
+* Example
+#+BEGIN_SRC elisp
+  (require 'types)
+
+  (define-typed-function foo (numberp x)
+    (* x x))
+
+  (foo 15)
+#+END_SRC
+
+#+RESULTS:
+: 225
