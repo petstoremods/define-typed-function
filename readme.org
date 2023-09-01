@@ -8,8 +8,7 @@ This library lets you define typed functions in elisp without having to use CLOS
   (define-typed-function foo (numberp x)
     (* x x))
 
-  (foo 15)
+  (foo 15) ;; results in 255
+  (foo "bad input") ;; results in error "Expected numberp for argument 1"
 #+END_SRC
 
-#+RESULTS:
-: 225
