@@ -1,5 +1,5 @@
 * types.el
-This library lets you define typed functions in elisp without having to use CLOS or manually check the types yourself.
+This library lets you define typed functions in elisp without having to use +CLOS+ [[https://www.gnu.org/software/emacs/manual/html_mono/eieio.html][EIEIO]] or manually check the types yourself.
 
 * Example
 #+BEGIN_SRC elisp
